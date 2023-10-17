@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ::selection {
+    @apply bg-primary-400 text-white;
+  }
+  p {
+    @apply text-xl;
+  }
+}
+
+@layer utilities {
+  .square {
+    aspect-ratio: 1 / 1;
+  }
+  .title {
+    @apply text-primary-500 hover:bg-gradient-to-r hover:from-secondary-500 hover:to-primary-400 hover:bg-clip-text hover:text-transparent w-max;
+    padding-bottom: 0.2em; /* fix descenders being cut off */
+    margin-bottom: -0.2em;
+  }
+  .footer-link {
+    @apply text-gray-300 hover:text-white hover:duration-150 duration-300;
+  }
+  .link {
+    @apply font-semibold text-primary-800 hover:text-primary-700;
+  }
+}
