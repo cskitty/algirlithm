@@ -32,7 +32,7 @@ const Home = () => {
         >
           <div className={"w-full max-w-4xl mx-auto"}>
             <h2 className={"uppercase text-lg font-medium text-primary-900"}>
-              November 11, 2023
+              February 15, 2025
             </h2>
             <h1
               className={
@@ -150,11 +150,10 @@ const Home = () => {
               {/*saturaday*/}
               <div className={"flex flex-col"}>
                 <h2 className={"text-3xl font-medium my-4 text-white"}>
-                  Saturday 11/11
+                  Saturday 2/15
                 </h2>
                 <Schedule time={"3:00PM ET"} event={"Opening Ceremony"} />
                 <Schedule time={"4:00PM - 6:00PM ET"} event={"Contest"} />
-                <Schedule time={"7:00PM - 8:00PM ET"} event={"Guest Speaker: Tina Wang (EGOI Medalist)"} />
                 <Schedule time={"8:30PM ET"} event={"Awards"} />
               </div>
             </div>
