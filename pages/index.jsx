@@ -176,7 +176,8 @@ const Home = () => {
           }
         >
           <div className={"max-w-4xl w-full mx-auto"}>
-            <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes</h2>
+            <h2 className={"text-4xl font-medium mb-4 text-white"}>Prizes - TBD</h2>
+            {/*
             <div className="flex flex-col gap-8 sm:flex-row mb-16">
               <Prize
                 title={"All attendees"}
@@ -225,6 +226,7 @@ const Home = () => {
                 body={"$15 per person"}
               />
             </div>
+            */}
           </div>
         </section>
         <div

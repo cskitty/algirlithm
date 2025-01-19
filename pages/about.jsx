@@ -18,10 +18,15 @@ import jenna from "@/team/jenna.jpg";
 import nino from "@/team/nino.jpg";
 import trisha from "@/team/trisha.jpg";
 import amys from "@/team/amys.png";
+import cindy from "@/team/cindy.jpeg";
+import charlotte from "@/team/charlotte.jpeg";
+import haarika from "@/team/haarika.jpeg";
+import hamsika from "@/team/hamsika.jpeg";
+import hillary from "@/team/hillary.jpeg";
 
 const team = [
-  { name: "Melody Yu", role: "organizer", image: melody },
-  { name: "Crystal Yang", role: "organizer", image: crystal },
+  { name: "Melody Yu", role: "head organizer", image: melody },
+  { name: "Crystal Yang", role: "head organizer", image: crystal },
 ];
 
 const problem_testers = [
@@ -30,11 +35,6 @@ const problem_testers = [
     role: "problem tester",
     image: ryan,
     link: "https://www.ryanchou.dev",
-  },
-  {
-    name: "Claire Zhang",
-    role: "problem tester",
-    image: claire,
   },
   {
     name: "Amy Sun",
@@ -46,18 +46,43 @@ const problem_testers = [
 const problem_writers = [
   {
     name: "Jenna Lee",
-    role: "problem writer/outreach",
+    role: "organizer",
     image: jenna,
   },
   {
     name: "Nino (Nintsi) Chkhaidze",
-    role: "problem writer",
+    role: "organizer",
     image: nino,
   },
   {
     name: "Trisha Sabadra",
-    role: "problem writer",
+    role: "organizer",
     image: trisha,
+  },
+  {
+    name: "Cindy Yang",
+    role: "organizer",
+    image: cindy,
+  },
+  {
+    name: "Charlotte Li",
+    role: "organizer",
+    image: charlotte,
+  },
+  {
+    name: "Haarika Pappu",
+    role: "organizer",
+    image: haarika,
+  },
+  {
+    name: "Hamsika Pappu",
+    role: "organizer",
+    image: hamsika,
+  },
+  {
+    name: "Hillary Yang",
+    role: "organizer",
+    image: hillary,
   },
 ];
 
@@ -69,6 +94,7 @@ const past_team = [
   { name: "Tarushii Goel", role: "organizer", image: tarushii },
   { name: "Juheon Rhee", role: "organizer", image: juheon },
   { name: "Maria Chrysafis", role: "organizer", image: logo },
+  { name: "Claire Zhang", role: "problem tester", image: claire },
 ];
 
 const About = () => {
@@ -89,7 +115,7 @@ const About = () => {
           </p>
         </Section>
         <Section>
-          <Subtitle>Organizers</Subtitle>
+          <Subtitle>Head Organizers</Subtitle>
           <p>
             Our contest is organized by students from high schools all around
             the world.
