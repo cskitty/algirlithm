@@ -23,6 +23,7 @@ import charlotte from "@/team/charlotte.jpeg";
 import haarika from "@/team/haarika.jpeg";
 import hamsika from "@/team/hamsika.jpeg";
 import hillary from "@/team/hillary.jpeg";
+import reeti from "@/team/reeti.png";
 
 const team = [
   { name: "Melody Yu", role: "head organizer", image: melody },
@@ -83,6 +84,12 @@ const problem_writers = [
     name: "Hillary Yang",
     role: "organizer",
     image: hillary,
+  },
+  
+  {
+    name: "Reeti Rout",
+    role: "organizer",
+    image: reeti,
   },
 ];
 
