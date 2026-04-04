@@ -32,7 +32,7 @@ const Home = () => {
         >
           <div className={"w-full max-w-4xl mx-auto"}>
             <h2 className={"uppercase text-lg font-medium text-primary-900"}>
-              March 28, 2026
+              April 4, 2026
             </h2>
             <h1
               className={
@@ -150,7 +150,7 @@ const Home = () => {
               {/*saturaday*/}
               <div className={"flex flex-col"}>
                 <h2 className={"text-3xl font-medium my-4 text-white"}>
-                  Saturday 3/28
+                  Saturday, April 4th, 2026
                 </h2>
                 <Schedule time={"3:00PM ET"} event={"Opening Ceremony"} />
                 <Schedule time={"4:00PM - 6:00PM ET"} event={"Contest"} />
