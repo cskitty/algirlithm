@@ -36,7 +36,7 @@ const problem_writers = [
     name: "Cindy Yang",
     role: "organizer",
     image: cindy,
-  },
+  }
 ];
 
 const past_team = [
