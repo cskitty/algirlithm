@@ -20,8 +20,6 @@ import trisha from "@/team/trisha.jpg";
 import amys from "@/team/amys.png";
 import cindy from "@/team/cindy.jpeg";
 import charlotte from "@/team/charlotte.jpeg";
-import haarika from "@/team/haarika.jpeg";
-import hamsika from "@/team/hamsika.jpeg";
 import hillary from "@/team/hillary.jpeg";
 import reeti from "@/team/reeti.png";
 
@@ -39,16 +37,6 @@ const problem_writers = [
     role: "organizer",
     image: cindy,
   },
-  {
-    name: "Haarika Pappu",
-    role: "organizer",
-    image: haarika,
-  },
-  {
-    name: "Hamsika Pappu",
-    role: "organizer",
-    image: hamsika,
-  }
 ];
 
 const past_team = [
